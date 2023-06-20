@@ -135,7 +135,8 @@ section{
 
 .button{
      height: 3.5rem;
-     width: 15rem;
+     width: 35px;
+     height:40px;
      background: var(--blue);
      color: #fff;
      font-size: 1.7rem;
