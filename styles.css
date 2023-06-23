@@ -61,7 +61,7 @@ header{
 .header-active{
     background: #fff;
     box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
-    padding: .5rem 1rem;
+    padding: 2.5rem 1rem;
 
 }
 header a {
@@ -200,8 +200,9 @@ section{
 
 .facility .box-container{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     flex-wrap: wrap;
+    align-items: center;
     padding-bottom: 3rem;
 }
 
@@ -209,6 +210,7 @@ section{
     height: 20rem;
     width: 30rem;
     margin: .3rem;
+    justify-content:space-between;
     overflow: hidden;
 }
 
@@ -221,6 +223,16 @@ section{
 .facility .box-container .box:hover img{
     transform: scale(1.1);
 }
+/* .box-container{
+    display: flex;
+    justify-content: space-between;
+
+} */
+/* .box{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 17px; */
+    
 
 .review{
     background:url(../Images/review-bg.jpg) ,linear-gradient(var(--black),var(--black)) no-repeat;
